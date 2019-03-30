@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from "react-router-dom";
 import PuzzleWrapper from './PuzzleWrapper';
+import '../css/puzzle.css';
 
 class PuzzleGame extends Component {
   constructor(props) {
@@ -62,7 +63,7 @@ class PuzzleGame extends Component {
       );
     }
     return (
-      <div className="puzzle-game" ref={this.containerRef}>
+      <div className="puzzle-game wrapper" ref={this.containerRef}>
         <h2 className="title">Player: {player}</h2>
         <h4 className="title steps">Steps: {steps}</h4>
         <PuzzleWrapper

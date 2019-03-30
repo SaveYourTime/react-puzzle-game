@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Table } from 'antd';
+import '../css/rank.css';
 
 const columns = [{
   title: 'Name',
@@ -17,7 +18,7 @@ class Rank extends Component {
   render() {
     const ranks = JSON.parse(window.localStorage.getItem('ranks'));
     return (
-      <div className="rank-wrapper">
+      <div className="wrapper">
         <h2 className="title">Rank</h2>
         <Table
           dataSource={ranks}
