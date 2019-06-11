@@ -1,5 +1,6 @@
 # react-puzzle-game
 
+![image](https://i.imgur.com/m0VclPJ.gif)
 ![image](https://i.imgur.com/q9hXFGl.png)
 ![image](https://i.imgur.com/zafqAzg.png)
 
